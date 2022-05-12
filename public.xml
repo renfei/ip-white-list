@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  <short>Public</short>
+  <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
+  <service name="ssh"/>
+  <service name="dhcpv6-client"/>
+  <masquerade/>
+  <!-- IPv4, 80 -->
+  <rule family="ipv4">
+    <source address="180.163.188.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.189.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.227.206.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.227.207.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.113.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.154.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.153.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.134.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.135.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.136.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.174.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.238.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.239.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.81.6.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.81.8.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.56.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.57.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.58.0/26"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.84.92.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.84.93.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.100.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.101.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.102.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.13.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.14.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.60.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.61.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.62.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.28.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.9.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.97.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.14.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.70.64/26"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.132.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.177.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.147.134.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.236.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.190.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="14.17.71.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.25.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.26.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.24.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.232.51.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.232.53.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.149.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.150.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.151.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.167.246.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.93.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.94.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.7.64/26"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.7.128/25"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.184.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.185.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.186.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="219.159.190.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="219.159.84.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="222.216.190.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="115.231.186.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="115.231.187.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.246.5.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="116.31.126.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="116.31.127.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.60.235.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.157.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.158.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.159.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.191.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.168.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.188.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="58.211.2.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="58.211.137.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="61.155.149.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.2.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.3.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.1.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.89.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.90.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.91.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="20.195.21.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.195.22.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.147.214.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.147.215.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.174.61.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.174.63.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.69.175.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="61.241.118.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.27.149.0/24"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="173.245.48.0/20"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.21.244.0/22"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.22.200.0/22"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.31.4.0/22"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="141.101.64.0/18"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="108.162.192.0/18"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="190.93.240.0/20"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="188.114.96.0/20"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="197.234.240.0/22"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="198.41.128.0/17"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="162.158.0.0/15"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="104.16.0.0/13"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="104.24.0.0/14"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="172.64.0.0/13"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="131.0.72.0/22"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <!-- IPv4, 443 -->
+  <rule family="ipv4">
+    <source address="180.163.188.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.189.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.227.206.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.227.207.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.113.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.154.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="180.163.153.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.134.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.135.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.32.136.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.174.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.238.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="125.39.239.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.81.6.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.81.8.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.56.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.57.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="221.178.58.0/26"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.84.92.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.84.93.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.100.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.101.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="113.207.102.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.13.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.14.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.60.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.61.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.62.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.34.28.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.9.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.97.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.14.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.70.64/26"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.188.132.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.177.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.147.134.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.236.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.61.190.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="14.17.71.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.25.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.26.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="157.255.24.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.232.51.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.232.53.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.149.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.150.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="150.138.151.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="119.167.246.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.93.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.94.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.7.64/26"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="42.236.7.128/25"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.184.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.185.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.170.186.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="219.159.190.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="219.159.84.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="222.216.190.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="115.231.186.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="115.231.187.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.246.5.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="116.31.126.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="116.31.127.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="183.60.235.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.157.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.158.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.29.159.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.191.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.168.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="124.95.188.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="58.211.2.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="58.211.137.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="61.155.149.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.2.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.3.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="122.190.1.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.89.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.90.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="112.25.91.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="20.195.21.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="220.195.22.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.147.214.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.147.215.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.174.61.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="111.174.63.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="101.69.175.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="61.241.118.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="117.27.149.0/24"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="173.245.48.0/20"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.21.244.0/22"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.22.200.0/22"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="103.31.4.0/22"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="141.101.64.0/18"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="108.162.192.0/18"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="190.93.240.0/20"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="188.114.96.0/20"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="197.234.240.0/22"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="198.41.128.0/17"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="162.158.0.0/15"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="104.16.0.0/13"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="104.24.0.0/14"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="172.64.0.0/13"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv4">
+    <source address="131.0.72.0/22"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <!-- IPv6, 80 -->
+  <rule family="ipv6">
+    <source address="2400:cb00::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2606:4700::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2803:f800::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2405:b500::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2405:8100::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2a06:98c0::/29"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2c0f:f248::/32"/>
+    <port protocol="tcp" port="80"/>
+    <accept/>
+  </rule>
+  <!-- IPv6, 443 -->
+  <rule family="ipv6">
+    <source address="2400:cb00::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2606:4700::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2803:f800::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2405:b500::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2405:8100::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2a06:98c0::/29"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+  <rule family="ipv6">
+    <source address="2c0f:f248::/32"/>
+    <port protocol="tcp" port="443"/>
+    <accept/>
+  </rule>
+</zone>
